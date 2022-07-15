@@ -1,0 +1,72 @@
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0 0 0;
+}
+
+/* RODAPE ENDEREÇO */
+
+.rodape__endereco-titulo {
+    font-weight: 700;
+}
+
+.rodape__endereco {
+    line-height: 24px;
+    font-size: 12px;
+    
+}
+
+/* RODAPE LINKS */
+
+.rodape__links-uteis {
+    font-weight: 700;
+}
+
+.rodape__links {
+    line-height: 24px;
+    font-size: 12px;
+}
+
+/* RODAPE__LISTA */
+
+.rodape__lista {
+    text-align:start;
+    line-height: 24px ;
+}
+.rodape__lista-titulo{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.rodape__lista-rede-sociais {
+    display: flex;
+    display: inline;
+    margin: .5rem 0;
+}
+
+.rodape__lista-whatsapp {
+    font-size: 12px;
+}
+
+/* RODAPE CREDITOS */
+
+.creditos {
+    text-align: center;
+    margin: 2rem 0 1rem 0 ;
+    color: #898989;
+    font-size: 12px;
+}
+
+.linha__rodape {
+    border: 1px solid #E8E8E8;
+    margin: 2rem 0;
+}
+
+.logo{
+    width: 101px;
+    height: 51px;
+}
+
+.logo__imagem{
+    width:100%;
+}

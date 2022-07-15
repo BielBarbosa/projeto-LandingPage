@@ -1,0 +1,40 @@
+.banner {
+    display: flex;
+   align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(250.33deg, #FFA0A0 -49.46%, rgba(196, 196, 196, 0) 47.18%);
+    padding: 5rem 0;
+}
+
+.banner__textos {
+    grid-area: textos;
+    width: 30%;
+}
+
+.banner__titulo {
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 3rem;
+}
+
+.banner__paragrafo {
+    line-height: 1.5rem;
+    margin: 2rem 0;
+}
+
+.banner__imagem {
+    grid-area: imagem;
+}
+
+.banner__link {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 .5rem;
+    padding: 0.5rem 1rem;
+    background-color:#CE2A47;
+    color: #ffffff;
+    border: 1px solid #CE2A47;
+    border-radius: 10px;
+    width: 110px;
+}

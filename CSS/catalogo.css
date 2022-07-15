@@ -1,0 +1,47 @@
+.catalogo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 10rem;
+    justify-items: center;
+}
+
+.card {
+    Width:330px;
+    Height:460px;
+    margin: 1rem;
+    box-shadow: 2px 10px 25px 10px rgba(0, 0, 0, 0.03);
+}
+
+.card__imagem {
+    width: 100%;
+}
+
+.card__titulo {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 1rem 0;
+    line-height: 1.5rem;
+    height: 48px;
+}
+
+.card__texto {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0.5rem 0 1rem 0;
+    line-height: 1.5rem;
+    height: 4rem;
+}
+
+.card__linha {
+    border: 1px solid #E8E8E8;
+}
+
+.card__link {
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: end;
+    margin: 4rem 0;
+    color: #C91233;
+    font-weight: 700;
+}

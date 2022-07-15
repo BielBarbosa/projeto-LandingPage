@@ -1,0 +1,97 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    align-items: center;
+}
+
+
+
+.cabecalho__links {
+    display: flex;
+    text-decoration: none;
+    margin: 0 1rem;
+    color: var(--cor-links);
+    font-size: 14px;
+}
+
+.cabecalho__botao {
+    margin: 0 .5rem;
+    padding: 0.5rem 1rem;
+    background-color:#CE2A47;
+    color: #ffffff;
+    border: 1px solid #CE2A47;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.cabecalho3 {
+    margin: 0 1rem;
+   display: flex;
+}
+
+.cabecalho__busca{
+    background-color:transparent;
+    width:100px;
+    height: 25px;
+    display: flex;
+}
+  
+.cabecalho__busca img {
+    width: 18%;
+    height: 70%;
+    padding: 6px 0 0 0;
+}
+  
+.cabecalho__pesquisa{
+    background-color:transparent;
+    padding: 0 0 0 5px;
+    font-size:14px;
+    font-weight: 700;
+    border:none;
+    height:32px;
+    width:100px;
+}
+
+.cabecalho__links:active{
+    color: red;
+}
+
+.sub{
+    text-decoration: none;
+    color: var(--cor-links);
+    font-size: 14px;
+}
+
+.menu{
+    list-style:none;
+    float:left;
+    }
+
+.menu li{
+    position:relative;
+    float:left;
+   
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#717171;
+    display:none;
+    Width: 232px;
+    Height: 250px;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+    display:block;
+    margin: 6px 0;
+    padding: 12px 0 0 14px;
+    color: #ffffff;
+    font-size: 14px;
+    width: 190px;
+}
+

@@ -1,0 +1,11 @@
+;:root {
+    --cor-fonte-principal: #131313
+    --cor-links: #717171
+    --cor-vermelho-provisorio: #ff2401
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-fonte-principal);
+    font-weight: 300;
+}
