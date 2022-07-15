@@ -5,8 +5,6 @@
     align-items: center;
 }
 
-
-
 .cabecalho__links {
     display: flex;
     text-decoration: none;
@@ -53,11 +51,7 @@
     width:100px;
 }
 
-.cabecalho__links:active{
-    color: red;
-}
-
-.sub{
+.sub-menu{
     text-decoration: none;
     color: var(--cor-links);
     font-size: 14px;
@@ -93,5 +87,10 @@
     color: #ffffff;
     font-size: 14px;
     width: 190px;
+}
+
+.link-ativo {
+    color:#C91233;
+    font-weight: 700;
 }
 
